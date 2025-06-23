@@ -122,9 +122,6 @@ services:
         target: "_blank"
       
 
-
-
-# Set Homer theme and colors
 stylesheet:
   - "assets/custom.css"
   
