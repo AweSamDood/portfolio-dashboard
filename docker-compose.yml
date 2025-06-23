@@ -1,0 +1,17 @@
+version: '3'
+services:
+  homer:
+    container_name: homer
+    image: b4bz/homer:latest
+    ports:
+      - "8082:8080"  # Using port 8082 to avoid conflicts
+    volumes:
+      - ./assets:/www/assets  # Mount the assets directory correctly
+    restart: unless-stopped
+    networks:
+      - mynetwork  # Connect to your existing media stack network
+
+# Use the existing network from your media stack
+networks:
+  mynetwork:
+    external: true

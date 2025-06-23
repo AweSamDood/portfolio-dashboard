@@ -1,0 +1,156 @@
+# Homepage configuration
+title: "PassTheBytes Dashboard"
+subtitle: "Self-Hosted Services Hub"
+
+header: true
+links:
+  - name: "System Status"
+    icon: "fas fa-heartbeat"
+    url: "https://status.passthebytes.com"
+    target: "_blank"
+
+footer: '<p>Created with ❤️ by <a href="https://github.com/AweSamDood" target="_blank">AweSamDood</a></p>'
+
+# Services
+services:
+  - name: "Media"
+    icon: "fas fa-play-circle"
+    items:
+      - name: "Jellyfin"
+        logo: "/assets/icons/jellyfin.png"
+        subtitle: "Media Server"
+        tag: "public"
+        url: "https://jellyfin.passthebytes.com"
+        target: "_blank"
+      - name: "Jellyseerr"
+        logo: "/assets/icons/jellyseerr.png"
+        subtitle: "Request Management"
+        tag: "public"
+        url: "https://jellyseerr.passthebytes.com"
+        target: "_blank"
+      - name: "Radarr"
+        logo: "/assets/icons/radarr.png"
+        subtitle: "Movie Management"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+      - name: "Sonarr"
+        logo: "/assets/icons/sonarr.png"
+        subtitle: "TV Shows Management"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+      - name: "Prowlarr"
+        logo: "/assets/icons/prowlarr.png"
+        subtitle: "Indexer Management"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+      - name: "qBittorrent"
+        logo: "/assets/icons/qbittorrent.png"
+        subtitle: "Download Client"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+      - name: "Flaresolverr"
+        logo: "/assets/icons/flaresolverr.png"
+        subtitle: "Cloudflare Bypass"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+
+  - name: "Storage & Files"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Nextcloud"
+        logo: "/assets/icons/nextcloud-white.png"
+        subtitle: "File Storage"
+        tag: "public"
+        url: "https://nextcloud.passthebytes.com"
+        target: "_blank"
+      - name: "PassTheBytes"
+        logo: "/assets/icons/passthebytes.png"
+        subtitle: "File Sharing Platform"
+        tag: "public"
+        url: "https://passthebytes.com"
+        target: "_blank"
+      - name: "PostGresSQL"
+        logo: "/assets/icons/postgres.png"
+        subtitle: "BackEnd Database"
+        tag: "system"
+        target: "_blank"
+
+  - name: "Household"
+    icon: "fas fa-cogs"
+    items:
+      - name: "Mealie"
+        logo: "/assets/icons/mealie.png"
+        subtitle: "Recipe Manager"
+        tag: "public"
+        url: "https://mealie.passthebytes.com"
+
+  - name: "System & Network"
+    icon: "fas fa-cogs"
+    items:
+      - name: "Portainer"
+        logo: "/assets/icons/portainer.png"
+        subtitle: "Container Management"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+      - name: "AdGuard Home"
+        logo: "/assets/icons/adguard-home.png"
+        subtitle: "DNS Ad Blocker"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+      - name: "WireGuard"
+        logo: "/assets/icons/wireguard.png"
+        subtitle: "VPN Service"
+        tag: "internal"
+        url: "#"
+        target: "_self"
+
+  - name: "Tools"
+    icon: "fas fa-cogs"
+    items:
+      - name: "PassTheBytes-Tools"
+        logo: "/assets/icons/passthebytes.png"
+        subtitle: "File related actions?"
+        tag: "public"
+        url: "https://tools.passthebytes.com"
+        target: "_blank"
+      
+
+
+
+# Set Homer theme and colors
+stylesheet:
+  - "assets/custom.css"
+  
+theme: dark
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
