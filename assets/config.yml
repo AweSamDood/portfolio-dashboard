@@ -116,7 +116,7 @@ services:
     items:
       - name: "PassTheBytes-Tools"
         logo: "/assets/icons/passthebytes.png"
-        subtitle: "File related actions?"
+        subtitle: "File Conversion and Processing"
         tag: "public"
         url: "https://tools.passthebytes.com"
         target: "_blank"
