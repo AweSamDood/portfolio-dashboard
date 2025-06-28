@@ -83,8 +83,8 @@ services:
   - name: "Security"
     icon: "fas fa-shield-alt"
     items:
-      - name: "Bitwarden"
-        logo: "/assets/icons/bitwarden.png"
+      - name: "Vaultwarden"
+        logo: "/assets/icons/vaultwarden.png
         subtitle: "Password Manager"
         tag: "public"
         url: "https://vault.passthebytes.com/#/login"
