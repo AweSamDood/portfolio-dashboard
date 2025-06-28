@@ -80,6 +80,16 @@ services:
         tag: "system"
         target: "_blank"
 
+  - name: "Security"
+    icon: "fas fa-shield-alt"
+    items:
+      - name: "Bitwarden"
+        logo: "/assets/icons/bitwarden.png"
+        subtitle: "Password Manager"
+        tag: "public"
+        url: "https://vault.passthebytes.com/#/login"
+        target: "_blank"
+
   - name: "Household"
     icon: "fas fa-cogs"
     items:
